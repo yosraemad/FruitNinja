@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" >
+    <padding><Insets bottom="10" left="25" right="25" top="25" /></padding>
+    <Label text="score"  GridPane.columnIndex="5" GridPane.rowIndex="5" />
+    <Label text="highScore"  GridPane.columnIndex="7" GridPane.rowIndex="5" />
+    <Label fx:id="scoreValue" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+    <Label fx:id="highScoreValue" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+    <Button fx:id="playAgainBtn" GridPane.columnIndex="6" GridPane.rowIndex="15" />
+    <Button fx:id="mainMenuBtn" GridPane.columnIndex="10" GridPane.rowIndex="15" />
+    <stylesheets>
+        <URL value="@../css/GameDonePageStyleSheet.css" />
+    </stylesheets>
+</GridPane>

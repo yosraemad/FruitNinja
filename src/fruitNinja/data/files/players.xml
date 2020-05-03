@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<players>
+    <player>
+        <username>omar</username>
+        <fullName>Omar Alaa</fullName>
+        <password>omar123</password>
+        <level>3</level>
+        <experience>27</experience>
+    </player>
+    <player>
+        <username>john</username>
+        <fullName>john doe</fullName>
+        <password>john_doe</password>
+        <level>2</level>
+        <experience>259</experience>
+    </player>
+    <player>
+        <username>hai</username>
+        <fullName>hai</fullName>
+        <password>haiiiiii</password>
+        <level>1</level>
+        <experience>0</experience>
+    </player>
+</players>

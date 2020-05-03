@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.effect.DropShadow?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml">
+
+    <children>
+        <ImageView fitHeight="800.0" fitWidth="1320.0" layoutX="-12.0" layoutY="-12.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../images/MaindashboardBackground.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="151.0" fitWidth="276.0" layoutX="482.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../images/fruit-ninja-logo.png" />
+            </image>
+        </ImageView>
+        <Button fx:id="arcadeButton" layoutX="469.0" layoutY="245.0" mnemonicParsing="false" prefHeight="210.0" prefWidth="224.0" style="-fx-background-color: transparent;">
+            <graphic>
+                <ImageView fitHeight="302.0" fitWidth="314.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../images/ArcadeButton.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+        <Button fx:id="zenButton" layoutX="904.0" layoutY="239.0" mnemonicParsing="false" style="-fx-background-color: transparent;">
+            <graphic>
+                <ImageView fitHeight="373.0" fitWidth="325.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../images/ZenButton.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+        <Button fx:id="classicButton" layoutX="79.0" layoutY="311.0" mnemonicParsing="false" prefHeight="168.0" prefWidth="203.0" style="-fx-background-color: transparent;" styleClass="focused">
+            <graphic>
+                <ImageView fitHeight="156.0" fitWidth="172.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../images/ClassicButton.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+        <Button fx:id="exitButton" layoutX="12.0" layoutY="151.0" mnemonicParsing="false" style="-fx-background-color: #8b0000;">
+            <graphic>
+                <ImageView fitHeight="24.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../images/BackArrow.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+            <effect>
+                <DropShadow />
+            </effect>
+        </Button>
+    </children>
+</AnchorPane>

@@ -1,0 +1,43 @@
+root {
+    display:block;
+}
+
+.root {
+    -fx-background-image: url("../images/MaindashboardBackground.png");
+    -fx-background-size: cover;
+}
+#backButton{
+    -fx-background-color: transparent;
+    -fx-graphic: url("../images/XButton.png");
+}
+.button{
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+}
+#zenButton{
+    -fx-background-color: transparent;
+    -fx-graphic: url("../images/LeaderZenBtn.png");
+}
+#zenButton:pressed{
+     -fx-graphic: url("../images/LeaderZenBtnClicked.png");
+}
+#arcadeButton{
+    -fx-background-color: transparent;
+    -fx-graphic: url("../images/LeaderArcadeBtn.png");
+}
+#arcadeButton:pressed{
+     -fx-graphic: url("../images/LeaderArcadeBtnClicked.png");
+}
+#classicButton{
+    -fx-background-color: transparent;
+    -fx-graphic: url("../images/LeaderClassicBtn.png");
+}
+#classicButton:pressed{
+     -fx-graphic: url("../images/LeaderClassicBtnClicked.png");
+}
+.label{
+    -fx-background-color: transparent;
+    -fx-text-fill: "#91542d";
+    -fx-font-family: 'Gang of Three';
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+}

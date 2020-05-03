@@ -1,0 +1,19 @@
+root{
+    display: block;
+}
+.root{
+    -fx-background-image: url("../images/PauseBackground.jpg");
+    -fx-background-size: cover;
+}
+.button{
+    -fx-background-color: #6d3c1a;
+    -fx-background-radius: 8px;
+    -fx-border-color: #321c0a;
+    -fx-text-fill: white;
+    -fx-font-family: 'Gang of Three';
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+.button:hover{
+    -fx-background-color: radial-gradient(center 50% 50%, radius 100%, #6d3c1a, #321c0a);
+}

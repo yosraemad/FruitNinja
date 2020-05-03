@@ -1,0 +1,41 @@
+root {
+    display:block;
+}
+
+.root {
+    -fx-background-image: url("../images/DoneGameBackground.jpg");
+    -fx-background-size: cover;
+}
+.button{
+        -fx-padding: 8 15 15 15;
+            -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+            -fx-background-radius: 8;
+            -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+            -fx-font-weight: bold;
+            -fx-font-size: 1.1em;
+}
+#playAgainBtn{
+    -fx-background-color: transparent;
+    -fx-graphic: url("../images/playGame.png");
+}
+
+.label{
+    -fx-background-color: transparent;
+    -fx-text-fill: burlywood;
+    -fx-font-family: 'Gang of Three';
+    -fx-font-size: 35px;
+    -fx-font-weight: bold;
+}
+#mainMenuBtn{
+    -fx-graphic: url("../images/mainmenu.png");
+    -fx-background-color:transparent;
+
+}
+
+.button:hover{
+        -fx-background-color:white;
+}
+.button:pressed{
+    -fx-padding: 10 15 13 15;
+        -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}

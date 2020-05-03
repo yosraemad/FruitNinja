@@ -1,0 +1,26 @@
+root{
+    display: block;
+}
+.root{
+    -fx-background-image: url("../images/GameBackground.png");
+    -fx-background-size: cover;
+ }
+.label{
+    -fx-font-family: 'Gang of Three';
+    -fx-font-size: 30px;
+    -fx-text-fill: white;
+}
+#livesLabel{
+    -fx-text-fill: red;
+}
+#pauseButton{
+    -fx-background-color: #6d3c1a;
+    -fx-background-radius: 8px;
+    -fx-border-color: #321c0a;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+#pauseButton:hover{
+    -fx-background-color: radial-gradient(center 50% 50%, radius 100%, #6d3c1a, #321c0a);
+}

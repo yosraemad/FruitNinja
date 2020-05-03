@@ -1,0 +1,8 @@
+root {
+    display:block;
+}
+
+.root {
+    -fx-background-image: url("../images/GameOver.png");
+    -fx-background-size: cover;
+}

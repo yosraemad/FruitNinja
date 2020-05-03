@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.text.Text?>
+<?import java.net.URL?>
+<GridPane xmlns="http://javafx.com/javafx"
+          xmlns:fx="http://javafx.com/fxml"
+          alignment="center" hgap="10" vgap="10">
+
+    <padding><Insets top="25" right="25" bottom="10" left="25"/></padding>
+
+    <Text id="welcome-text" text="Welcome to Fruit Ninja"
+          GridPane.columnIndex="0" GridPane.rowIndex ="0"
+          GridPane.columnSpan="2"/>
+
+    <Label text="Full Name: "
+            GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+
+    <TextField fx:id="fullNameTextField"
+               GridPane.columnIndex="1" GridPane.rowIndex="1" />
+
+    <Label text="Username: "
+           GridPane.columnIndex="0" GridPane.rowIndex="2" />
+
+    <TextField fx:id="usernameTextField"
+               GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+
+    <Label text="Password: "
+           GridPane.columnIndex="0" GridPane.rowIndex="3"/>
+
+    <PasswordField fx:id="passwordTextField"
+                   GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+
+    <HBox spacing="10" alignment="CENTER"
+          GridPane.columnIndex="0" GridPane.rowIndex="5" GridPane.columnSpan="2">
+        <Button fx:id="signUpBtn" text="Sign Up"/>
+    </HBox>
+
+    <HBox spacing="10" alignment="BOTTOM_CENTER"
+          GridPane.columnIndex="0" GridPane.rowIndex="6" GridPane.columnSpan="2">
+        <Text id="secondaryLabel" text="Already a player?"
+              GridPane.columnIndex="1" GridPane.rowIndex="6" />
+    </HBox>
+
+    <HBox spacing="10" alignment="CENTER"
+          GridPane.columnIndex="0" GridPane.rowIndex="7" GridPane.columnSpan="2">
+        <Button fx:id="signInBtn" text="Login"/>
+    </HBox>
+    <stylesheets>
+        <URL value="@../css/LoginPageStyleSheet.css" />
+    </stylesheets>
+</GridPane>

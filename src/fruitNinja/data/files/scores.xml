@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<scores>
+    <score>
+        <username>omar</username>
+        <zenScore>30</zenScore>
+        <classicScore>80</classicScore>
+        <arcadeScore>89</arcadeScore>
+    </score>
+    <score>
+        <username>john</username>
+        <zenScore>106</zenScore>
+        <classicScore>68</classicScore>
+        <arcadeScore>162</arcadeScore>
+    </score>
+    <score>
+        <username>adam</username>
+        <zenScore>19</zenScore>
+        <classicScore>50</classicScore>
+        <arcadeScore>16</arcadeScore>
+    </score>
+    <score>
+        <username>yosra</username>
+        <zenScore>0</zenScore>
+        <classicScore>45</classicScore>
+        <arcadeScore>21</arcadeScore>
+    </score>
+</scores>

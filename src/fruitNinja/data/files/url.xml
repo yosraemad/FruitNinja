@@ -1,0 +1,15 @@
+<fruits>
+    <fruit>
+        <fruitname>banana</fruitname>
+        <picture>views/images/banana.png</picture>
+    </fruit>
+    <fruit>
+        <fruitname>pineapple</fruitname>
+        <picture>views/images/banana1.png</picture>
+    </fruit>
+    <fruit>
+        <fruitname>apple</fruitname>
+        <picture>views/images/banana2.png</picture>
+    </fruit>
+
+</fruits>
